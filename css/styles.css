@@ -17,7 +17,6 @@ body {
 }
 /* logo */
 .logo {
-  height: 24px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
@@ -26,20 +25,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.logo-color-studio {
-  width: 71px;
   color: var(--title-section-color);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .logo-color-web {
-  width: 44px;
   color: var(--primary-brand-color);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 /* Site nav */
 .site-nav .link {

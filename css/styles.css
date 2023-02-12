@@ -1,10 +1,18 @@
+:root {
+  --page-background-color: #ffffff;
+  --body-text-color: #434455;
+  --title-section-color: #2e2f42;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+}
+
 ul {
   list-style: none;
 }
 
 body {
-  background-color: #ffffff;
-  color: #434455;
+  background-color: var(--page-background-color);
+  color: var(--body-text-color);
 }
 /* logo */
 .logo {
@@ -20,14 +28,14 @@ body {
 }
 .logo-color-studio {
   width: 71px;
-  color: #2e2f42;
+  color: var(--title-section-color);
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 .logo-color-web {
   width: 44px;
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -40,11 +48,11 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-section-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #404bbf;
+  color: var(--pressed-state-color);
 }
 /* Hero section */
 .hero-title {

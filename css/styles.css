@@ -54,6 +54,9 @@ body {
 .site-nav .link:focus {
   color: var(--pressed-state-color);
 }
+.site-nav .link-current {
+  color: var(--pressed-state-color);
+}
 
 /* Address */
 .site-adress .link {

@@ -92,3 +92,9 @@ body {
 .footer-backgraund {
   background-color: #2e2f42;
 }
+.light-color {
+  color: var(--light-mode-color);
+}
+.footer-backgraund .text {
+  color: var(--accent-botton-color);
+}

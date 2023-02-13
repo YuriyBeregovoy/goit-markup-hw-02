@@ -4,6 +4,8 @@
   --title-section-color: #2e2f42;
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
+  --light-mode-color: #f4f4fd;
+  --accent-botton-color: #e7e9fc;
 }
 
 .list {
@@ -84,4 +86,9 @@ body {
 /* Sections */
 .section-title {
   color: var(--title-section-color);
+}
+
+/* Footer */
+.footer-backgraund {
+  background-color: #2e2f42;
 }

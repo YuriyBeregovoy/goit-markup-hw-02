@@ -63,6 +63,7 @@ body {
   line-height: 1.07;
   text-align: center;
   color: var(--page-background-color);
+  background-color: var(--title-section-color);
 }
 
 .button-hero {

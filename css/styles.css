@@ -6,8 +6,9 @@
   --pressed-state-color: #404bbf;
 }
 
-ul {
+.list {
   list-style: none;
+  text-decoration: none;
 }
 
 body {

@@ -28,7 +28,7 @@ body {
   text-transform: uppercase;
   color: var(--title-section-color);
 }
-.logo-color-web {
+.brand-color {
   color: var(--primary-brand-color);
 }
 /* Site nav */
@@ -71,11 +71,15 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.button-primary {
+.button-hero {
   color: var(--page-background-color);
   background-color: var(--primary-brand-color);
 }
-.button-primary:hover,
-.button-primary:focus {
+.button-hero:hover,
+.button-hero:focus {
   background-color: var(--pressed-state-color);
+}
+/* Sections */
+.section-title {
+  color: var(--title-section-color);
 }

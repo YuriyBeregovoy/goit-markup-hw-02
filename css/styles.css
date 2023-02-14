@@ -86,6 +86,7 @@ body {
   color: var(--page-background-color);
   background-color: var(--primary-brand-color);
   letter-spacing: 0.04em;
+  border-color: transparent;
 }
 
 .button-hero:hover,

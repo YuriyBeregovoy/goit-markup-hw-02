@@ -8,11 +8,6 @@
   --accent-botton-color: #e7e9fc;
 }
 
-.list {
-  list-style: none;
-  text-decoration: none;
-}
-
 body {
   background-color: var(--page-background-color);
   color: var(--body-text-color);
@@ -30,6 +25,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--title-section-color);
 }
 .brand-color {
@@ -40,6 +36,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: var(--title-section-color);
+  text-decoration: none;
 }
 .link:hover,
 .link:focus,
@@ -49,12 +46,18 @@ body {
 
 /* Address */
 .adress-items .link {
+  list-style-type: none;
   font-style: normal;
+  text-decoration: none;
   color: var(--body-text-color);
 }
 .link:hover,
 .link:focus {
   color: var(--pressed-state-color);
+}
+
+.list {
+  list-style: none;
 }
 
 /* Hero section */

@@ -56,20 +56,16 @@ body {
   color: var(--title-section-color);
   text-decoration: none;
 }
-.link:hover,
-.link:focus,
-.link.current {
-  color: var(--pressed-state-color);
-}
-
 .adress-items .link {
-  list-style-type: none;
   font-style: normal;
   text-decoration: none;
   color: var(--body-text-color);
 }
 .link:hover,
 .link:focus {
+  color: var(--pressed-state-color);
+}
+.link.current {
   color: var(--pressed-state-color);
 }
 
@@ -84,7 +80,6 @@ body {
 }
 
 .button-hero {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
@@ -122,14 +117,25 @@ body {
   color: var(--title-section-color);
 }
 /* Section our team */
+.section-team .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-section-color);
+}
+.section-team .text {
+  text-align: center;
+}
 
 /* Footer */
-.footer-backgraund {
-  background-color: #2e2f42;
-}
-.light-color {
+.footer .logo {
   color: var(--light-mode-color);
 }
-.footer-backgraund .text {
+.footer .text {
   color: var(--accent-botton-color);
+}
+.footer {
+  background-color: #2e2f42;
 }

@@ -111,7 +111,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-section-color);
 }
-/* Section activities */
+/* Section activities--Section our team */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-section-color);
+}
 /* Section our team */
 
 /* Footer */

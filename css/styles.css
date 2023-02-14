@@ -98,10 +98,10 @@ body {
   background-color: var(--pressed-state-color);
 }
 
-/* Sections */
+/* Sections
 .section-title {
   color: var(--title-section-color);
-}
+} */
 
 /* Footer */
 .footer-backgraund {

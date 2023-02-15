@@ -80,6 +80,7 @@ body {
 }
 
 .button-hero {
+  font-family: 'Roboto', 'sans-serif';
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
@@ -94,12 +95,6 @@ body {
 .button-hero:focus {
   background-color: var(--pressed-state-color);
 }
-
-/* Sections
-.section-title {
-  color: var(--title-section-color);
-} */
-
 /* Section advantages */
 .advantages .title {
   font-weight: 500;
@@ -129,6 +124,26 @@ body {
 }
 .section-team .text {
   text-align: center;
+}
+
+/* Saction Portfolio  */
+.button-filtr .filtr {
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  border-color: transparent;
+  cursor: pointer;
+  background-color: var(--accent-botton-color);
+}
+.filtr:hover,
+.filtr:focus {
+  color: var(--page-background-color);
+  background-color: var(--pressed-state-color);
 }
 
 /* Footer */

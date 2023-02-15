@@ -145,6 +145,12 @@ body {
   color: var(--page-background-color);
   background-color: var(--pressed-state-color);
 }
+.projects .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--title-section-color);
+}
 
 /* Footer */
 .footer .logo {

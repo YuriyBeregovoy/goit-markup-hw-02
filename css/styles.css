@@ -160,5 +160,5 @@ body {
   color: var(--accent-botton-color);
 }
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--title-section-color);
 }

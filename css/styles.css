@@ -87,6 +87,7 @@ body {
   background-color: var(--primary-brand-color);
   letter-spacing: 0.04em;
   border-color: transparent;
+  cursor: pointer;
 }
 
 .button-hero:hover,

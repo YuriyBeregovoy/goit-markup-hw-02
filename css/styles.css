@@ -24,6 +24,10 @@
 .list {
   list-style: none;
 }
+.underline {
+  text-decoration: none;
+}
+
 .accent {
   color: var(--primary-brand-color);
 }
@@ -46,7 +50,6 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   color: var(--title-section-color);
 }
 
@@ -54,11 +57,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: var(--title-section-color);
-  text-decoration: none;
 }
 .adress-items .link {
   font-style: normal;
-  text-decoration: none;
   color: var(--body-text-color);
 }
 .link:hover,
@@ -70,13 +71,15 @@ body {
 }
 
 /* Hero section */
+.hero {
+  background-color: var(--title-section-color);
+}
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   color: var(--page-background-color);
-  background-color: var(--title-section-color);
+  letter-spacing: 0.02em;
 }
 
 .button-hero {
@@ -87,7 +90,7 @@ body {
   color: var(--page-background-color);
   background-color: var(--primary-brand-color);
   letter-spacing: 0.04em;
-  border-color: transparent;
+  border: none;
   cursor: pointer;
 }
 
@@ -105,7 +108,6 @@ body {
 }
 /* Section activities--Section our team */
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -114,6 +116,12 @@ body {
   color: var(--title-section-color);
 }
 /* Section our team */
+.section-team {
+  background-color: var(--light-mode-color);
+}
+.cards {
+  background-color: var(--page-background-color);
+}
 .section-team .title {
   font-weight: 500;
   font-size: 20px;
@@ -136,20 +144,24 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
-  border-color: transparent;
+  border: 1px solid var(--accent-botton-color);
   cursor: pointer;
-  background-color: var(--accent-botton-color);
+  background-color: var(--light-mode-color);
 }
 .filtr:hover,
 .filtr:focus {
   color: var(--page-background-color);
   background-color: var(--pressed-state-color);
+  border-color: transparent;
 }
 .projects .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-section-color);
+}
+.projects .text {
+  color: var(--body-text-color);
 }
 
 /* Footer */

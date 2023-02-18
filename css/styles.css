@@ -83,7 +83,7 @@ body {
 }
 
 .button-hero {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
@@ -136,7 +136,7 @@ body {
 
 /* Saction Portfolio  */
 .button-filtr .filtr {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;

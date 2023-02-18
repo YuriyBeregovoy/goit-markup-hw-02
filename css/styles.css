@@ -1,4 +1,4 @@
-/* Utility */
+/* --------------------------Utility--------------------------- */
 :root {
   --page-background-color: #ffffff;
   --body-text-color: #434455;
@@ -7,6 +7,14 @@
   --pressed-state-color: #404bbf;
   --light-mode-color: #f4f4fd;
   --accent-botton-color: #e7e9fc;
+}
+body {
+  background-color: var(--page-background-color);
+  color: var(--body-text-color);
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .visually-hidden {
   position: absolute;
@@ -27,22 +35,17 @@
 .underline {
   text-decoration: none;
 }
-
 .accent {
   color: var(--primary-brand-color);
 }
-
-/* Basic body styles */
-body {
-  background-color: var(--page-background-color);
-  color: var(--body-text-color);
-  font-family: 'Roboto', 'sans-serif';
-  font-size: 16px;
-  line-height: 1.5;
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--title-section-color);
 }
-
-/* The head of the page */
+/* ---------------- The head of the page--------------- */
 .logo {
   font-family: 'Raleway', 'sans-serif';
   font-weight: 800;
@@ -52,7 +55,6 @@ body {
   text-transform: uppercase;
   color: var(--title-section-color);
 }
-
 .site-nav .link {
   font-weight: 500;
   font-size: 16px;
@@ -69,8 +71,7 @@ body {
 .link.current {
   color: var(--pressed-state-color);
 }
-
-/* Hero section */
+/*------------------ Hero section-------------------------*/
 .hero {
   background-color: var(--title-section-color);
 }
@@ -81,7 +82,6 @@ body {
   color: var(--page-background-color);
   letter-spacing: 0.02em;
 }
-
 .button-hero {
   font-family: inherit;
   font-size: 16px;
@@ -93,20 +93,16 @@ body {
   border: none;
   cursor: pointer;
 }
-
 .button-hero:hover,
 .button-hero:focus {
   background-color: var(--pressed-state-color);
 }
-/* Section advantages */
+/*-------------------- Section advantages--------------------- */
 .advantages .title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-section-color);
 }
-/* Section activities--Section our team */
+/*------------------------- Section activities--Section our team--------------------- */
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -115,7 +111,7 @@ body {
   text-transform: capitalize;
   color: var(--title-section-color);
 }
-/* Section our team */
+/*-------------------------------- Section our team ------------------------------------*/
 .section-team {
   background-color: var(--light-mode-color);
 }
@@ -123,18 +119,12 @@ body {
   background-color: var(--page-background-color);
 }
 .section-team .title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--title-section-color);
 }
 .section-team .text {
   text-align: center;
 }
-
-/* Saction Portfolio  */
+/*-------------------------------------- Saction Portfolio ---------------------------------- */
 .button-filtr .filtr {
   font-family: inherit;
   font-weight: 500;
@@ -154,17 +144,10 @@ body {
   background-color: var(--pressed-state-color);
   border-color: transparent;
 }
-.projects .title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--title-section-color);
-}
 .projects .text {
   color: var(--body-text-color);
 }
-
-/* Footer */
+/*--------------------------- Footer------------------------------ */
 .footer .logo {
   color: var(--light-mode-color);
 }
